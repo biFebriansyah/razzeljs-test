@@ -1,0 +1,23 @@
+
+.opsi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .create {
+        flex: 1;
+        margin-right: 5px;
+    }
+
+    .upgrade {
+        flex: 1;
+    }
+
+    .masuk {
+        flex: 1;
+    }
+
+    .hide {
+        display: none;
+    }
+}

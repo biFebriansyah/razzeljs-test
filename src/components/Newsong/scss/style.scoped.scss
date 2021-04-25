@@ -1,0 +1,20 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .next-btn {
+        display: flex;
+    }
+
+    .btnnxt {
+        background-color: #788188;
+        color: white !important;
+        border-radius: 3px;
+        outline: none !important;
+
+        &:hover {
+            background-color: #346d9e;
+        }
+    }
+}

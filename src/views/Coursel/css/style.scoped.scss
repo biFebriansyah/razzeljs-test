@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+    outline: none;
+    border: none;
+}
+
+.slid-panel {
+    width: 100%;
+    padding: 20px 16px;
+}
+
+.slideItems {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-width: 100%;
+        margin: auto;
+    }
+}

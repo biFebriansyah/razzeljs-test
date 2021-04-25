@@ -1,0 +1,29 @@
+.image-container {
+    position: relative;
+    overflow: hidden;
+    /* background: rgba(0, 0, 0, 0.05); */
+    display: block;
+    z-index: -1;
+}
+
+@keyframes shine {
+    to {
+        background-position-x: -200%;
+    }
+}
+
+.is-loading {
+    background: #e3e3e3;
+    background: linear-gradient(110deg, #c9c9c9 8%, #d8d8d8 18%, #c9c9c9 33%);
+    border-radius: 5px;
+    background-size: 200% 100%;
+    animation: 1.5s shine linear infinite;
+}
+
+.circle-loading {
+    background: #e3e3e3;
+    background: linear-gradient(110deg, #c9c9c9 8%, #d8d8d8 18%, #c9c9c9 33%);
+    border-radius: 50%;
+    background-size: 200% 100%;
+    animation: 1.5s shine linear infinite;
+}

@@ -1,0 +1,87 @@
+.my-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 11vh;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+}
+
+.my-left {
+    margin-left: 100px;
+}
+
+.my-right {
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.cos-btn {
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    height: 37px;
+    width: 85px;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 6px;
+    color: #303436;
+}
+
+.bg-false {
+    border: 2px solid #085b7c;
+    color: #085b7c;
+}
+
+.bg-true {
+    background-color: #085b7c;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        display: none;
+    }
+    .from-container {
+        width: 100%;
+    }
+    .login-from {
+        padding: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .my-right {
+        margin-right: 10px;
+    }
+
+    .my-right .my-btn .cos-btn {
+        line-height: 28px;
+        height: 30px;
+        width: 65px;
+        font-size: 12px;
+    }
+
+    .my-left {
+        margin-left: 10px;
+    }
+    .my-left .login-head img {
+        max-height: 30px;
+    }
+    .my-left .navbar-brand {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .my-header {
+        height: 9vh;
+    }
+    .my-right {
+        margin-right: 10px;
+        width: 155px;
+    }
+}

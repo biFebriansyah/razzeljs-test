@@ -1,0 +1,22 @@
+
+.premium {
+    position: relative;
+    display: flex;
+    // height: 60px;
+    justify-content: center;
+    align-items: center;
+
+    .animate {
+        background: linear-gradient(110deg, rgb(255, 255, 255) 0%, rgba(250,215,51,1) 48%, rgb(255, 255, 255) 100%);
+        // background: linear-gradient(110deg, rgba(250,215,51,1) 0%, rgb(255, 255, 255) 48%, rgba(250,215,51,1) 100%);
+        background-size: 200% 100%;
+        animation: 2.5s shine linear infinite;
+    }
+
+    @keyframes shine {
+        to {
+            background-position-x: -200%;
+        }
+    }
+
+}

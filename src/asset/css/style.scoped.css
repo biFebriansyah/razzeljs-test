@@ -1,0 +1,9 @@
+.dicover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hover-btn {
+    display: flex;
+}

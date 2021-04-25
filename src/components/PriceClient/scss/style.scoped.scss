@@ -1,0 +1,93 @@
+$main_colors: #0597fb;
+$darks_colors: #046db3;
+
+.item {
+    flex-basis: 30%;
+}
+
+.cards {
+    width: 100%;
+    // height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px;
+    border-radius: 5px;
+    border-width: 2px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #007bbf;
+
+    h3 {
+        font-size: 20px;
+        font-weight: bold;
+        color: #007bbf;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+}
+
+.cards-active {
+    background-color: $main_colors;
+    color: white;
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    .login-btn {
+        background-image: linear-gradient(120deg, #fff, rgb(255, 255, 255));
+        color: $main_colors;
+    }
+
+    h3 {
+        color: white;
+    }
+}
+
+.login-btn {
+    display: block;
+    width: 80%;
+    height: 40px;
+    border: none;
+    background-size: 200%;
+    border-radius: 4px;
+    cursor: pointer;
+    background-image: linear-gradient(120deg, $main_colors, $darks_colors);
+    color: #fff;
+    transition: 0.5s;
+    outline: none;
+}
+
+.login-btn:hover {
+    background-position: right;
+}
+
+.botom-txt {
+    text-align: center;
+    font-size: 13px;
+    color: #9e9e9e;
+}
+
+.detail {
+    ul {
+        // max-width: 80%;
+        // text-align: center;
+        // overflow: hidden;
+        // white-space: nowrap;
+        // text-overflow: ellipsis;
+        // display: inline-block;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+        li {
+            list-style: none;
+        }
+    }
+}

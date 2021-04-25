@@ -1,0 +1,10 @@
+.DateInput_input {
+    font-size: 15px;
+    color: #333;
+    border-bottom: none;
+}
+
+.DateInput_input__focused {
+    color: black;
+    border-bottom: 1px solid #747bb9;
+}

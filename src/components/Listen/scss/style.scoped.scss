@@ -1,0 +1,26 @@
+.icon-set {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-menu {
+    min-width: 100px;
+    text-align: left;
+}
+
+.dropdown-menu > li > a {
+    color: black !important;
+}
+
+.btn-costm {
+    outline: none;
+    border: none;
+    background-color: transparent;
+
+    &:hover {
+        color: whitesmoke;
+    }
+}

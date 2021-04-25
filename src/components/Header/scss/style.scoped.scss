@@ -1,0 +1,163 @@
+.cos-btn {
+    display: block;
+    text-align: center;
+    height: 37px;
+    width: 70px;
+    font-weight: 700;
+    line-height: 33px;
+    font-size: 14px;
+    // border-radius: 6px;
+    // border: 2px solid #303436;
+    // color: #303436;
+}
+
+.notlogin {
+    margin-right: 50px;
+    display: flex;
+    margin-top: 12px;
+    border-radius: 6px;
+    // border: 2px solid #303436;
+    overflow: hidden;
+}
+
+.bg-brown {
+    background-color: #4e5558;
+    color: white;
+
+    &:hover {
+        background-color: #303436;
+    }
+}
+
+.bg-bright {
+    background-color: #4cb6cb;
+    color: white;
+
+    &:hover {
+        background-color: #3b92a3;
+    }
+}
+
+.premium {
+    position: relative;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+
+    .animate {
+        background: linear-gradient(110deg, rgb(255, 255, 255) 0%, rgba(250,215,51,1) 48%, rgb(255, 255, 255) 100%);
+        // background: linear-gradient(110deg, rgba(250,215,51,1) 0%, rgb(255, 255, 255) 48%, rgba(250,215,51,1) 100%);
+        background-size: 200% 100%;
+        animation: 2.5s shine linear infinite;
+    }
+
+    @keyframes shine {
+        to {
+            background-position-x: -200%;
+        }
+    }
+
+}
+
+.Notpremium {
+    position: relative;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        cursor: pointer;
+        &:hover i {
+            color: #1ab667;
+        }
+    }
+}
+
+
+.uploads {
+    position: relative;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+    button {
+        border: none;
+        height: 40px;
+        padding: 10px;
+        color: red;
+        background-color: inherit;
+        border-radius: 5px;
+        outline: none;
+
+        &:hover {
+            background-color: rgb(53, 53, 53);
+        }
+    }
+
+    input {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        opacity: 0;
+        z-index: -9999;
+    }
+}
+
+.read {
+    background-color: #bfbfbf;
+    color: white;
+
+    small {
+        color: white !important;
+    }
+
+    &:hover {
+        small {
+            color: #bfbfbf !important;
+        }
+    }
+}
+
+.listcon {
+    overflow: auto;
+    height: 230px;
+}
+
+// Iphone 6,7,7
+@media (max-width: 414px) {
+    .photo {
+        margin: 0px auto;
+    }
+
+    .hidden-xl {
+        display: flex;
+        margin: 5px 0;
+
+        span {
+            margin: 0 auto;
+        }
+    }
+
+    .premium {
+        height: auto;
+
+        .animate {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .Notpremium {
+        height: initial;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hidden-xl {
+        display: none !important;
+    }
+}

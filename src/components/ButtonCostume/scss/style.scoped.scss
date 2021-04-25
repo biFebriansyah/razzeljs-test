@@ -1,0 +1,27 @@
+.btn-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+
+    .the-button {
+        outline: none;
+        border: none;
+        width: 80px;
+        height: 34px;
+        border-radius: 4px;
+        font-size: 10pt;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .berhasil {
+        background-color: #1ab667;
+        color: whitesmoke;
+
+        &:hover {
+            background-color: #4cae4c;
+        }
+    }
+}

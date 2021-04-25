@@ -1,0 +1,24 @@
+.dicover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hover-btn {
+    display: flex;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 300px;
+}
+
+.notfound {
+    color: rgb(48, 48, 48);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}

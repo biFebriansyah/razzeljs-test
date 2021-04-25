@@ -1,0 +1,51 @@
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 99999;
+}
+
+.modal-cos {
+    background-color: white;
+    position: absolute;
+    opacity: 1;
+    width: 600px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .btn-close {
+        font-size: 25px;
+        color: black;
+        position: absolute;
+        cursor: pointer;
+        right: 0;
+        margin-top: 5px;
+        margin-right: 10px;
+        background-color: white;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .modal-cos {
+        width: 90%;
+    }
+}

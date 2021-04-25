@@ -1,0 +1,1 @@
+{"ast":null,"code":"class Users {}\n\nexport default new Users();","map":{"version":3,"sources":["/home/ab/Code/reactJs/razzel/src/redux/actions/users.js"],"names":["Users"],"mappings":"AAAA,MAAMA,KAAN,CAAY;;AAEZ,eAAe,IAAIA,KAAJ,EAAf","sourcesContent":["class Users {}\n\nexport default new Users()\n"]},"metadata":{},"sourceType":"module"}
