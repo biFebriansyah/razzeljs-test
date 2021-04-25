@@ -1,0 +1,51 @@
+{
+  "client": {
+    "css": [
+      "/static/css/client.2a0e00b1.css"
+    ],
+    "js": [
+      "/static/js/client.e7defb5c.js"
+    ],
+    "chunks": [
+      47
+    ]
+  },
+  "noentry": {
+    "svg": [
+      "/static/media/fontawesome-webfont.0a799148.svg",
+      "/static/media/Simple-Line-Icons.5db2ea1b.svg",
+      "/static/media/glyphicons-halflings-regular.89889688.svg"
+    ],
+    "png": [
+      "/static/media/lwhite.10c3f2fc.png"
+    ],
+    "ttf": [
+      "/static/media/fontawesome-webfont.dcb26c72.ttf",
+      "/static/media/glyphicons-halflings-regular.e18bbf61.ttf",
+      "/static/media/Simple-Line-Icons.596814ca.ttf"
+    ],
+    "woff": [
+      "/static/media/Simple-Line-Icons.ff94ad94.woff",
+      "/static/media/fontawesome-webfont.3293616e.woff",
+      "/static/media/sourcesanspro.c4f39c8c.woff",
+      "/static/media/sourcesanspro-bold.1146f3f2.woff",
+      "/static/media/sourcesanspro-light.7951903b.woff",
+      "/static/media/glyphicons-halflings-regular.fa277232.woff"
+    ],
+    "webp": [
+      "/static/media/cd.23f42cb9.webp"
+    ],
+    "eot": [
+      "/static/media/fontawesome-webfont.8b27bc96.eot",
+      "/static/media/Simple-Line-Icons.f19a7f6c.eot",
+      "/static/media/glyphicons-halflings-regular.f4769f9b.eot"
+    ],
+    "ico": [
+      "/favicon.ico"
+    ],
+    "txt": [
+      "/static/js/client.e7defb5c.js.LICENSE.txt",
+      "/robots.txt"
+    ]
+  }
+}
