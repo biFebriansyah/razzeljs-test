@@ -28,14 +28,14 @@ const jsScriptTagsFromAssets = (assets, entrypoint, extra = "") => {
         : ""
 }
 
-const publicFolder =
-    process.env.NODE_ENV === "production" ? path.join(__dirname, "../build/public") : "public"
+// const publicFolder =
+//     process.env.NODE_ENV === "production" ? path.join(__dirname, "../build/public") : "public"
 
 const server = express()
 server
     .disable("x-powered-by")
     // process.env.RAZZLE_PUBLIC_DIR
-    .use(express.static(publicFolder))
+    .use(express.static(process.env.RAZZLE_PUBLIC_DIR))
     .get("/*", (req, res) => {
         const context = {}
         const initialStateUsers = {
